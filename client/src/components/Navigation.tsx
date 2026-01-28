@@ -13,9 +13,9 @@ export default function Navigation() {
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition">
-                <div className="w-15 h-15 rounded-full overflow-hidden bg-white flex items-center justify-center">
+                <div className="w-30 h-30 rounded-full  flex items-center justify-center">
                   <img
-                    src="/images/logo-expresso-lupo.jpeg"
+                    src="/images/logo-expresso-lupo.png"
                     alt="Expresso Lupo"
                     className="w-full h-full object-contain"
                   />

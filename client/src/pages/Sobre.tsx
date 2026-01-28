@@ -246,7 +246,7 @@ export default function Sobre() {
             <div className="flex gap-6">
               <div className="flex flex-col items-center">
                 <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center font-black">
-                  2014
+                  2009
                 </div>
                 <div className="w-1 h-20 bg-red-600 mt-2"></div>
               </div>
