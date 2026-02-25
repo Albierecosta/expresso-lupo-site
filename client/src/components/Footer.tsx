@@ -82,9 +82,20 @@ export default function Footer() {
         {/* Redes Sociais */}
         <div className="border-t border-gray-700 pt-8">
           <div className="flex justify-between items-center flex-wrap gap-4">
-            <p className="text-sm text-gray-400">
-              © 2026 Expresso Lupo. Todos os direitos reservados.
-            </p>
+            <div className="text-sm text-gray-400">
+              <p>© 2026 Expresso Lupo. Todos os direitos reservados.</p>
+              <p className="text-xs mt-1">
+                Desenvolvido por{" "}
+                <a
+                  href="https://altumsistemas.com.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-yellow-400 transition"
+                >
+                  Altum Sistemas
+                </a>
+              </p>
+            </div>
             <div className="flex gap-4">
               <a
                 href="https://www.instagram.com/expressolupoltda/"
